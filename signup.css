@@ -1,0 +1,12 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.signup-avatar {
+    font-size: 180px;
+    color: #0b3553;
+}
+
+.signup-form {
+    max-width: 800px;
+}

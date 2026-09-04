@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profile</title>
+
+    <!-- Lato -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+
+    <!-- Navbar will go here -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+                WebSiteName
+            </a>
+
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+
+                <ul class="navbar-nav me-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Page 1
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Page 2
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">
+                            <i class="fa-solid fa-user"></i>
+                            Sign Up
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                            Login
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Main page -->
+    <main class="container-fluid profile-page py-2">
+
+        <div class="row g-2">
+
+            <!-- LEFT PROFILE SECTION -->
+            <aside class="col-12 col-md-3">
+
+                <div class="bg-white position-relative p-4">
+
+                    <!-- Edit button -->
+                    <button
+                        type="button"
+                        class="btn position-absolute top-0 end-0 m-2"
+                        data-bs-toggle="modal"
+                        data-bs-target="#editProfileModal"
+                    >
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+
+
+                    <!-- Profile picture + name -->
+                    <div class="text-center">
+
+                        <i class="fa-solid fa-circle-user profile-avatar"></i>
+
+                        <h3 class="fw-bold mt-3">
+                            Vineet Kumar Singh
+                        </h3>
+
+                        <p class="fst-italic text-secondary">
+                            Programmer
+                        </p>
+
+                    </div>
+
+
+                    <hr class="my-4">
+
+
+                    <!-- Contact information -->
+                    <div class="profile-info">
+
+                        <p>
+                            <i class="fa-solid fa-location-dot me-3"></i>
+                            Masjid Banda, Hyderabad
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-phone me-3"></i>
+                            9450788108
+                        </p>
+
+                        <p>
+                            <i class="fa-regular fa-envelope me-3"></i>
+                            vineet@beehyv.com
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-link me-3"></i>
+
+                            <a href="#" class="text-break">
+                                http://home.iitk.ac.in/~vineetks
+                            </a>
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-language me-3"></i>
+                            English
+                        </p>
+
+                    </div>
+
+
+                    <hr class="my-4">
+
+
+                    <!-- Social icons -->
+                    <div class="text-center">
+
+                        <i class="fa-brands fa-twitter me-3 social-icon twitter-logo"></i>
+
+                        <i class="fa-brands fa-soundcloud social-icon soundcloud-logo"></i>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+
+            <!-- RIGHT SECTION -->
+            <section class="col-12 col-md-9">
+
+                <div class="bg-white p-4">
+
+                    <h5 class="mb-3">
+                        BACKGROUND
+                    </h5>
+
+                    <hr>
+
+                    <!-- ABOUT -->
+                    <div class="mb-4">
+
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fa-regular fa-address-card section-icon"></i>
+
+                            <h5 class="mb-0 text-secondary">
+                                ABOUT
+                            </h5>
+                        </div>
+
+                        <hr class="mt-2">
+
+                        <p class="ms-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi ut aliquip ex ea commodo consequat.
+                        </p>
+
+                    </div>
+
+                    <!-- WORK EXPERIENCE -->
+                    <div class="mb-4">
+
+                        
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-building section-icon"></i>
+
+                            <h5 class="mb-0 text-secondary">
+                                WORK EXPERIENCE
+                            </h5>
+                        </div>
+
+                        <hr class="mt-2">
+
+                        <div class="ms-5">
+
+                            <p class="mb-1">
+                                <strong>Project 1,</strong>
+                                <a href="#" class="text-decoration-none">Java</a>,
+                                <a href="#" class="text-decoration-none">Angular</a>
+                            </p>
+
+                            <p class="small text-secondary mb-2">
+                                Dec, 2013 - Dec, 2014
+                                <i class="fa-regular fa-clock ms-2"></i>
+                                1 year
+                            </p>
+
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+
+                            <ul>
+                                <li>Random point 1</li>
+                                <li>Random point 2</li>
+                                <li>Random point 3</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <!-- SKILLS -->
+                    <div class="mb-4">
+
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-screwdriver-wrench section-icon"></i>
+
+                            <h5 class="mb-0 text-secondary">
+                                SKILLS
+                            </h5>
+                        </div>
+
+                        <hr class="mt-2">
+
+                        <div class="ms-5">
+
+                            <div class="skill-group mb-3">
+                                <strong>Web Development</strong>
+
+                                <div class="mt-2">
+                                    <span class="badge text-bg-info">HTML</span>
+                                    <span class="badge text-bg-info">CSS</span>
+                                    <span class="badge text-bg-info">Javascript</span>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="skill-group">
+                                <strong>Compression</strong>
+
+                                <div class="mt-2">
+                                    <span class="badge text-bg-info">Mpeg</span>
+                                    <span class="badge text-bg-info">MP4</span>
+                                    <span class="badge text-bg-info">GIF</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                    <!-- EDUCATION -->
+                    <div class="mb-4">
+
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-graduation-cap section-icon"></i>
+
+                            <h5 class="mb-0 text-secondary">
+                                EDUCATION
+                            </h5>
+                        </div>
+
+                        <hr class="mt-2">
+
+                        <div class="ms-5">
+
+                            <p class="mb-1">
+                                <strong>Indian Institute of Technology, Kanpur</strong>
+                            </p>
+
+                            <p class="small text-secondary mb-2">
+                                Master of Technology
+                            </p>
+
+                            <p class="small text-secondary">
+                                2012 - 2014
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- INTERESTS -->
+                    <div class="mb-4">
+
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-heart section-icon"></i>
+
+                            <h5 class="mb-0 text-secondary">
+                                INTERESTS
+                            </h5>
+                        </div>
+
+                        <hr class="mt-2">
+
+                        <div class="ms-5">
+                            <span class="badge text-bg-secondary me-2">Cricket</span>
+                            <span class="badge text-bg-secondary me-2">Music</span>
+                            <span class="badge text-bg-secondary">Programming</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <div
+    class="modal fade"
+    id="editProfileModal"
+    tabindex="-1"
+    aria-hidden="true"
+    >
+
+        <div class="modal-dialog modal-lg">
+
+            <div class="modal-content">
+
+                <!-- Header -->
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Your Details
+                    </h5>
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    ></button>
+
+                </div>
+
+
+                <!-- Body -->
+                <div class="modal-body">
+
+                    <div class="row">
+
+                        <!-- FORM SIDE -->
+                        <div class="col-12 col-md-7">
+
+                            <form>
+
+                                <div class="mb-3">
+                                    <label for="editName" class="form-label">
+                                        Name :
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="editName"
+                                        value="Vineet Kumar Singh"
+                                    >
+                                </div>
+
+
+                                <div class="mb-3">
+                                    <label for="editDesignation" class="form-label">
+                                        Designation :
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="editDesignation"
+                                        value="Programmer"
+                                    >
+                                </div>
+
+
+                                <div class="mb-3">
+                                    <label for="editAddress" class="form-label">
+                                        Address :
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="editAddress"
+                                        value="Masjid Banda, Hyderabad"
+                                    >
+                                </div>
+
+
+                                <!-- Two fields in one row -->
+                                <div class="row">
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="editPhone" class="form-label">
+                                            Contact Number :
+                                        </label>
+
+                                        <input
+                                            type="tel"
+                                            class="form-control"
+                                            id="editPhone"
+                                            value="9450788108"
+                                        >
+                                    </div>
+
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="editEmail" class="form-label">
+                                            Email :
+                                        </label>
+
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="editEmail"
+                                            value="vineet@beehyv.com"
+                                        >
+                                    </div>
+
+                                </div>
+
+
+                                <div class="row">
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="editLink" class="form-label">
+                                            Link :
+                                        </label>
+
+                                        <input
+                                            type="url"
+                                            class="form-control"
+                                            id="editLink"
+                                            value="http://home.iitk.ac.in/~vineetks"
+                                        >
+                                    </div>
+
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="editLanguage" class="form-label">
+                                            Language :
+                                        </label>
+
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="editLanguage"
+                                            value="English"
+                                        >
+                                    </div>
+
+                                </div>
+
+
+                                <div class="mb-3">
+                                    <label for="editPicture" class="form-label">
+                                        Profile Picture :
+                                    </label>
+
+                                    <input
+                                        type="file"
+                                        class="form-control"
+                                        id="editPicture"
+                                        accept="image/*"
+                                    >
+                                </div>
+
+                            </form>
+
+                        </div>
+
+
+                        <!-- PROFILE PICTURE SIDE -->
+                        <div class="col-12 col-md-5 text-center">
+
+                            <i class="fa-solid fa-user modal-avatar"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Footer -->
+                <div class="modal-footer">
+
+                    <button
+                        type="button"
+                        class="btn btn-outline-secondary"
+                        data-bs-dismiss="modal"
+                    >
+                        Save
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <button class="btn btn-light border rounded-circle position-fixed bottom-0 end-0 m-3 floating-menu-btn">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>
