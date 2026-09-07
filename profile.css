@@ -38,3 +38,18 @@ body {
 .soundcloud-logo {
     color: #ff5500;
 }
+
+.profile-picture {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.modal-profile-picture {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}

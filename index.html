@@ -20,12 +20,11 @@
             <select name="language" id="language">
                 <option value="en">English</option>
                 <option value="hi">Hindi</option>
-                <option value="te">Telugu</option>
             </select>
         </div>
         <h2>Log In to Your Account</h2>
         <div>
-            <form>
+            <form id="loginForm">
                 <div class="input-container">
                     <input type="text" id="username" name="username" placeholder="Email or phone or username" required>
                     <input type="password" id="password" name="password" placeholder="Password" required>
@@ -39,9 +38,13 @@
                 </div>
                     <button class="login-button">Log In</button>
             </form>
+            <p id="loginError" class="login-error"></p>
             <p class="signup-text">Need an account? <a class="signup-link" href="signup.html">Sign Up</a></p>
         </div>
     </div>
     <p class="footer-text">Terms of Use · Help · Privacy Policy</p>
+
+    <script src="users.js"></script>
+    <script src="login.js"></script>
 </body>
 </html>

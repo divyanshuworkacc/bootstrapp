@@ -161,3 +161,9 @@ form input[type="checkbox"] {
         background-color: #eeeeee;
     }
 }
+
+
+.login-error {
+    color: red;
+    font-size: 13px;
+}
