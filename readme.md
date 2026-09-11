@@ -15,19 +15,13 @@ Quick start
 
 ```bash
 python3 -m http.server 8000
-# then open http://localhost:8000 in your browser
+# then open http://localhost:8000
 ```
 
 Notes
 - `styles.css` is used by `index.html` (login page) only.
 - The signup and profile pages use Bootstrap (as required) and have their own CSS files: `signup.css` and `profile.css`.
 - Each page has a corresponding JS file to handle page-specific logic: `login.js`, `signup.js`, and `profile.js`.
-
-Contributing
-- Make changes on a separate branch and open a pull request. Keep styles scoped per page when possible.
-
-License
-- Add a license if you plan to publish or share this project.
 
 
 
