@@ -1,5 +1,5 @@
 
-# Login Design
+# Dashboard
 
 A small front-end project containing a login page plus separate signup and profile pages. The project demonstrates simple HTML/CSS/JavaScript structure with modular styles and scripts per page.
 
